@@ -1,0 +1,251 @@
+{
+  // editor style
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontWeight": "400",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "constant",
+          "constant.character",
+          "constant.character.escape",
+          "constant.numeric",
+          "constant.numeric.integer",
+          "constant.numeric.float",
+          "constant.numeric.hex",
+          "constant.numeric.octal",
+          "constant.other",
+          "constant.regexp",
+          "constant.rgb-value",
+          "emphasis",
+          "entity",
+          "entity.name",
+          "entity.name.class",
+          "entity.name.section",
+          "entity.name.selector",
+          "entity.name.tag",
+          "entity.name.type",
+          "entity.other",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "invalid",
+          "invalid.deprecated",
+          "invalid.illegal",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "keyword.operator.new",
+          "keyword.operator.assignment",
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.other",
+          "markup",
+          "markup.bold",
+          "markup.changed",
+          "markup.deleted",
+          "markup.heading",
+          "markup.inline.raw",
+          "markup.inserted",
+          "markup.italic",
+          "markup.list",
+          "markup.list.numbered",
+          "markup.list.unnumbered",
+          "markup.other",
+          "markup.quote",
+          "markup.raw",
+          "markup.underline",
+          "markup.underline.link",
+          "meta",
+          "meta.block",
+          "meta.cast",
+          "meta.class",
+          "meta.function",
+          "meta.function-call",
+          "meta.preprocessor",
+          "meta.return-type",
+          "meta.selector",
+          "meta.tag",
+          "meta.type.annotation",
+          "meta.type",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.separator",
+          "punctuation.separator.continuation",
+          "punctuation.terminator",
+          "storage",
+          "storage.modifier",
+          "storage.type",
+          "string",
+          "string.interpolated",
+          "string.other",
+          "string.quoted",
+          "string.quoted.double",
+          "string.quoted.other",
+          "string.quoted.single",
+          "string.quoted.triple",
+          "string.regexp",
+          "string.unquoted",
+          "strong",
+          "support",
+          "support.class",
+          "support.constant",
+          "support.function",
+          "support.other",
+          "support.type",
+          "support.type.property-name",
+          "support.variable",
+          "variable",
+          "variable.language",
+          "variable.name",
+          "variable.other",
+          "variable.other.readwrite",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["entity.name.function", "entity.name.method"],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  },
+  "editor.bracketPairColorization.enabled": false,
+  // formatting
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
+  // files
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  // config
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-19",
+      "path": "C:\\Program Files\\Java\\jdk-19",
+      "default": true
+    }
+  ],
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 120}",
+  "prettier.tabWidth": 2,
+
+  "python.autoComplete.extraPaths": [],
+
+  "matlab-formatter.separateBlocks": false,
+
+  "C_Cpp.codeAnalysis.exclude": {},
+
+  "python.analysis.extraPaths": [],
+
+  "telemetry.telemetryLevel": "off",
+
+  "explorer.fileNesting.expand": false,
+  "explorer.compactFolders": false,
+  "html.completion.attributeDefaultValue": "singlequotes",
+
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.maxColumn": 120,
+  "material-icon-theme.folders.color": "#B8DBEA",
+
+  "files.eol": "\n",
+  "editor.fontSize": 20,
+  "workbench.colorTheme": "GitHub Light",
+  "material-icon-theme.folders.theme": "specific",
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+
+  "python.formatting.autopep8Args": ["--indent-size=2 ", "--ignore=E121 ", "--max-line-length=120"],
+  "workbench.editor.showTabs": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.guides.indentation": true,
+  "xml.server.binary.trustedHashes": ["90b5a78c57559f1268c05b41595cff1a48156f9370356e79d11180fcad0fa1ba"],
+  "[latex]": {
+    "editor.defaultFormatter": "mathematic.vscode-latex"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "mwpb.java-prettier-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2
+  },
+  "git.suggestSmartCommit": false,
+  "npm.keybindingsChangedWarningShown": true,
+  "window.customMenuBarAltFocus": false,
+  "html.format.wrapLineLength": 120,
+
+  "java.format.settings.url": "file:///C:/Program Files/Java/eclipse-formatter.xml",
+  "java.format.enabled": true,
+  "java.format.settings.profile": "120col",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "xsl.processor": "C:\\\\xml\\\\SaxonHE11-4J\\\\saxon-he-11.4.jar",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "editor.glyphMargin": false,
+  "zenMode.fullScreen": false,
+  /*"terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/usr/bin/flatpak-spawn",
+      "args": ["--host", "--env=TERM=xterm-256color", "bash"]
+    }
+  },*/
+  "window.menuBarVisibility": "toggle",
+  "workbench.productIconTheme": "adwaita",
+  "editor.renderLineHighlight": "none",
+  "workbench.tree.indent": 12,
+  "vsicons.presets.hideExplorerArrows": true,
+  "git.openRepositoryInParentFolders": "never"
+}
